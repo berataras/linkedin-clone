@@ -1,0 +1,121 @@
+@mixin alignment($display, $justify, $align){
+  display: $display;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+$base-color: #006699;
+
+.header{
+  background-color: #fff;
+  .container{
+    height: 56px;
+    @include alignment(flex, unset, center);
+
+    .search{
+      position: relative;
+      margin-left: 18px;
+      .searchIcon{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 32px;
+        width: 44px;
+        @include alignment(flex, center, center);
+        color: #AAAAAA;
+      }
+      .searchInput{
+        height: 32px;
+        width: 100%;
+        border-radius: 4px;
+        font-size: 14px;
+        background-color: rgba(222, 222, 222, 0.32);
+        padding: 0 15px 0 44px;
+        &::placeholder{
+          color: #AAAAAA;
+        }
+      }
+    }
+
+    .menu{
+      margin: 0 auto;
+      ul{
+        display: flex;
+        align-items: center;
+        li{
+          a{
+            @include alignment(flex, center, center);
+            margin: 0 16px;
+
+            i{
+              font-size: 20px;
+              color: #AAAAAA;
+
+              &:hover{
+                color: $base-color;
+              }
+            }
+
+            span{
+              display: none;
+            }
+
+            &:hover{
+              color: $base-color;
+            }
+          }
+          &.active{
+            a{
+              color: $base-color;
+              i{
+                color: $base-color;
+                margin-right: 6px;
+              }
+              span{
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+
+
+    .userCard{
+      > a{
+        @include alignment(flex, center, center);
+
+        .detail{
+          display: flex;
+          flex-direction: column;
+          text-align: right;
+          margin-right: 6px;
+          .name{
+            font-size: 14px;
+            color: #17272F;
+            margin-bottom: 5px;
+          }
+          .status{
+            font-size: 12px;
+
+            &.online{
+              color: #31B057;
+            }
+          }
+        }
+
+        .avatar{
+          height: 34px;
+          width: 34px;
+          min-width: 34px;
+          border-radius: 26px;
+        }
+
+        i{
+          color: #A7B4CC;
+          margin-left: 6px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+.header {
+  background-color: #fff;
+}
+.header .container {
+  height: 56px;
+  display: flex;
+  justify-content: unset;
+  align-items: center;
+}
+.header .container .search {
+  position: relative;
+  margin-left: 18px;
+}
+.header .container .search .searchIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 32px;
+  width: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #AAAAAA;
+}
+.header .container .search .searchInput {
+  height: 32px;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: rgba(222, 222, 222, 0.32);
+  padding: 0 15px 0 44px;
+}
+.header .container .search .searchInput::placeholder {
+  color: #AAAAAA;
+}
+.header .container .menu {
+  margin: 0 auto;
+}
+.header .container .menu ul {
+  display: flex;
+  align-items: center;
+}
+.header .container .menu ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 16px;
+}
+.header .container .menu ul li a i {
+  font-size: 20px;
+  color: #AAAAAA;
+}
+.header .container .menu ul li a i:hover {
+  color: #006699;
+}
+.header .container .menu ul li a span {
+  display: none;
+}
+.header .container .menu ul li a:hover {
+  color: #006699;
+}
+.header .container .menu ul li.active a {
+  color: #006699;
+}
+.header .container .menu ul li.active a i {
+  color: #006699;
+  margin-right: 6px;
+}
+.header .container .menu ul li.active a span {
+  display: block;
+}
+.header .container .userCard > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .container .userCard > a .detail {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-right: 6px;
+}
+.header .container .userCard > a .detail .name {
+  font-size: 14px;
+  color: #17272F;
+  margin-bottom: 5px;
+}
+.header .container .userCard > a .detail .status {
+  font-size: 12px;
+}
+.header .container .userCard > a .detail .status.online {
+  color: #31B057;
+}
+.header .container .userCard > a .avatar {
+  height: 34px;
+  width: 34px;
+  min-width: 34px;
+  border-radius: 26px;
+}
+.header .container .userCard > a i {
+  color: #A7B4CC;
+  margin-left: 6px;
+}
+
+/*# sourceMappingURL=Header.module.css.map */
