@@ -1,9 +1,16 @@
-import styles from '../styles/Home/Home.module.css'
+import {Sidebar} from "../components";
+import {EventButton, Newest, Stats} from "../components/partials/Sidebar/Widgets";
 
-export default function Home() {
+function Home() {
   return (
-    <div>
-
+    <div className="container pb-20">
+      <Sidebar>
+          <Stats />
+          <Newest />
+          <EventButton />
+      </Sidebar>
     </div>
   )
 }
+
+export default Home;

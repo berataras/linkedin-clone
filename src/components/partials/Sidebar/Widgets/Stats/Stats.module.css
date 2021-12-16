@@ -1,0 +1,66 @@
+.widgetStats {
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 8px;
+}
+.widgetStats .statsUser {
+  border-bottom: 1px solid #EDF0F5;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+.widgetStats .statsUser .cover {
+  height: 43px;
+  background: url("/images/widgets/cover-bg.png") no-repeat center center;
+  background-size: cover;
+  border-radius: 4px;
+}
+.widgetStats .statsUser .avatar {
+  text-align: center;
+  margin-top: -26px;
+  margin-bottom: 15px;
+}
+.widgetStats .statsUser .avatar img {
+  width: 52px;
+  height: 52px;
+  min-width: 52px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #ffffff;
+}
+.widgetStats .statsUser .name,
+.widgetStats .statsUser .jobTitle {
+  text-align: center;
+}
+.widgetStats .statsUser .name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #17272F;
+}
+.widgetStats .statsUser .jobTitle {
+  font-size: 14px;
+  color: #AAAAAA;
+  margin-top: 5px;
+}
+.widgetStats .analyticsWrapper {
+  padding: 0 7px 11px;
+}
+.widgetStats .analyticsWrapper li {
+  display: flex;
+  justify-content: space-between;
+}
+.widgetStats .analyticsWrapper li:not(:last-child) {
+  margin-bottom: 16px;
+}
+.widgetStats .analyticsWrapper li .key, .widgetStats .analyticsWrapper li .value {
+  font-size: 14px;
+}
+.widgetStats .analyticsWrapper li .key {
+  color: #17272F;
+  font-weight: 400;
+}
+.widgetStats .analyticsWrapper li .value {
+  color: #006699;
+}
+
+/*# sourceMappingURL=Stats.module.css.map */

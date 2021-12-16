@@ -1,0 +1,17 @@
+.widgetEventButton {
+  height: 50px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 6px;
+  margin-top: 16px;
+  font-weight: 500;
+  color: #17272F;
+}
+.widgetEventButton i {
+  color: #006699;
+}
+
+/*# sourceMappingURL=EventButton.module.css.map */

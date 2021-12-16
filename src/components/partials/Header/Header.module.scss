@@ -8,6 +8,7 @@ $base-color: #006699;
 
 .header{
   background-color: #fff;
+  margin-bottom: 20px;
   .container{
     height: 56px;
     @include alignment(flex, unset, center);

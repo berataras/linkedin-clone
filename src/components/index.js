@@ -1,6 +1,7 @@
-import {Header, Footer} from './partials'
+import {Header, Footer, Sidebar} from './partials'
 
 export {
     Header,
-    Footer
+    Footer,
+    Sidebar
 }

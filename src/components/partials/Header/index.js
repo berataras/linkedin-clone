@@ -1,4 +1,6 @@
 import styles from './Header.module.scss'
+import Index from "./List";
+import UserCard from "./UserCard";
 console.log(styles)
 function Header(props) {
     return (
@@ -15,55 +17,19 @@ function Header(props) {
 
                 <nav className={styles.menu}>
                     <ul>
-                        <li className={styles.active}>
-                            <a href="">
-                                <i className="icon-home" />
-                                <span>Home</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i className="icon-users" />
-                                <span>Users</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i className="icon-briefcase" />
-                                <span>Jobs</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i className="icon-message" />
-                                <span>Messages</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i className="icon-notification" />
-                                <span>Notifications</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i className="icon-grid" />
-                                <span>Applications</span>
-                            </a>
-                        </li>
+                        <Index text="Home" icon="icon-home" active={styles.active} />
+
+                        <Index text="Jobs" icon="icon-briefcase" />
+
+                        <Index text="Messages" icon="icon-message" />
+
+                        <Index text="Notifications" icon="icon-notification" />
+
+                        <Index text="Applications" icon="icon-grid" />
                     </ul>
                 </nav>
 
-                <div className={styles.userCard}>
-                    <a href="">
-                        <span className={styles.detail}>
-                            <span className={styles.name}>Berat Aras</span>
-                            <span className={`${styles.status} ${styles.online}`}>Online</span>
-                        </span>
-                        <img src="/images/avatar.png" alt="avatar" className={styles.avatar}/>
-                        <i className="icon-down-open" />
-                    </a>
-                </div>
+                <UserCard />
             </div>
         </header>
     );

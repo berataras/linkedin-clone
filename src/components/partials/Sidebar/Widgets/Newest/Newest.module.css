@@ -1,0 +1,46 @@
+.widgetNewest {
+  background-color: #ffffff;
+  margin-top: 16px;
+  padding: 15px;
+}
+.widgetNewest h4 {
+  font-size: 14px;
+  font-weight: 500;
+  border-bottom: 1px solid #EDF0F5;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  color: #17272F;
+  display: flex;
+  justify-content: space-between;
+}
+.widgetNewest h4 .dropdown a {
+  display: flex;
+  align-items: center;
+  color: #31B057;
+  font-weight: normal;
+}
+.widgetNewest h4 .dropdown a i {
+  color: #AAAAAA;
+  font-size: 10px;
+  margin-left: 5px;
+}
+.widgetNewest ul:not(:last-child) {
+  padding-bottom: 30px;
+}
+.widgetNewest ul li {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+}
+.widgetNewest ul li i {
+  margin-right: 10px;
+}
+.widgetNewest ul li a {
+  color: #006699;
+  font-size: 14px;
+}
+.widgetNewest ul li a:hover {
+  color: #222;
+}
+
+/*# sourceMappingURL=Newest.module.css.map */

@@ -1,0 +1,52 @@
+.widgetNewest{
+  background-color: #ffffff;
+  margin-top: 16px;
+  padding: 15px;
+
+  h4{
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 1px solid #EDF0F5;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    color: #17272F;
+    display: flex;
+    justify-content: space-between;
+
+    .dropdown{
+      a{
+        display: flex;
+        align-items: center;
+        color: #31B057;
+        font-weight: normal;
+
+        i{
+          color: #AAAAAA;
+          font-size: 10px;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+
+  ul{
+    &:not(:last-child){
+      padding-bottom: 30px;
+    }
+    li{
+      display: flex;
+      align-items: center;
+      padding: 8px 0;
+      i{
+        margin-right: 10px;
+      }
+      a{
+        color: #006699;
+        font-size: 14px;
+        &:hover{
+          color: #222;
+        }
+      }
+    }
+  }
+}
