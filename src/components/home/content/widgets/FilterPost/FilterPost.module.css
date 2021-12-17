@@ -1,0 +1,19 @@
+.filterPostCard {
+  background-color: rgba(222, 222, 222, 0.24);
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 13px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+.filterPostCard h6 {
+  font-weight: normal;
+}
+.filterPostCard .dropdown i {
+  color: #AAAAAA;
+  padding-left: 21px;
+}
+
+/*# sourceMappingURL=FilterPost.module.css.map */

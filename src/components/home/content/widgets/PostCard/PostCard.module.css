@@ -1,0 +1,157 @@
+.postCard {
+  height: 553px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 6px;
+  margin-top: 20px;
+  padding: 16px 13px;
+}
+.postCard .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #EDF0F5;
+  padding-bottom: 10px;
+}
+.postCard .header .userWrapper {
+  display: flex;
+}
+.postCard .header .userWrapper .avatar {
+  height: 36px;
+  width: 36px;
+  min-width: 36px;
+  border-radius: 50%;
+}
+.postCard .header .userWrapper .info {
+  margin-left: 12px;
+}
+.postCard .header .userWrapper .info span {
+  display: block;
+}
+.postCard .header .userWrapper .info span:not(:last-child) {
+  margin-bottom: 2px;
+}
+.postCard .header .userWrapper .info .name {
+  font-size: 14px;
+}
+.postCard .header .userWrapper .info .title, .postCard .header .userWrapper .info .date {
+  font-size: 10px;
+  color: #AAAAAA;
+}
+.postCard .header .dropdown i {
+  height: 24px;
+  width: 24px;
+  color: #AAAAAA;
+}
+.postCard .postContent {
+  margin-top: 21px;
+  font-size: 14px;
+}
+.postCard .postContent .description {
+  color: #17272F;
+  font-weight: normal;
+}
+.postCard .postContent .description .hashtag {
+  margin-top: 12px;
+  font-weight: 500;
+}
+.postCard .postContent .description .hashtag span {
+  color: #006699;
+}
+.postCard .postContent .description .hashtag span:not(:first-child) {
+  padding-left: 8px;
+}
+.postCard .postContent .media {
+  height: 230px;
+  margin-top: 12px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.postCard .postContent .socialDetails {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  border-bottom: 1px solid #EDF0F5;
+  padding-bottom: 20px;
+  margin-bottom: 14px;
+}
+.postCard .postContent .socialDetails i {
+  width: 16px;
+  height: 16px;
+  margin-right: 9px;
+}
+.postCard .postContent .socialDetails .info {
+  font-size: 12px;
+  font-weight: normal;
+}
+.postCard .postContent .socialDetails .info .like {
+  position: relative;
+  margin: 14px 22px;
+}
+.postCard .postContent .socialDetails .info .like:after {
+  content: "";
+  height: 3px;
+  width: 3px;
+  background-color: black;
+  position: absolute;
+  border-radius: 50%;
+  margin: 0 auto;
+  top: 5px;
+  right: -13px;
+}
+.postCard .postContent .socialButtons {
+  color: #AAAAAA;
+  display: flex;
+}
+.postCard .postContent .socialButtons .button {
+  margin-right: 17px;
+}
+.postCard .postContent .socialButtons .button i {
+  margin-right: 8px;
+}
+.postCard .postContent .writeCommentCard {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  position: relative;
+}
+.postCard .postContent .writeCommentCard img {
+  height: 32px;
+  width: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.postCard .postContent .writeCommentCard .inputWrapper {
+  width: 100%;
+  position: relative;
+}
+.postCard .postContent .writeCommentCard .inputWrapper input {
+  width: 100%;
+  border: 1px solid #EDF0F5;
+  padding: 16px;
+  border-radius: 6px;
+}
+.postCard .postContent .writeCommentCard .inputWrapper i {
+  position: absolute;
+  right: 16px;
+  top: 0;
+  height: 100%;
+  color: #A7B4CC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.postCard .postContent .writeCommentCard .inputWrapper:before {
+  content: "";
+  position: absolute;
+  right: 40px;
+  top: 12px;
+  height: 25px;
+  width: 1px;
+  background-color: #EDF0F5;
+  z-index: 99;
+}
+
+/*# sourceMappingURL=PostCard.module.css.map */

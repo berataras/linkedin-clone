@@ -1,7 +1,8 @@
-import {Header, Footer, Sidebar} from './partials'
+import {Header, Sidebar} from './partials'
+import Content from './home/content'
 
 export {
     Header,
-    Footer,
-    Sidebar
+    Sidebar,
+    Content
 }

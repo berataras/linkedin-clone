@@ -1,7 +1,6 @@
 import styles from './Header.module.scss'
 import Index from "./List";
 import UserCard from "./UserCard";
-console.log(styles)
 function Header(props) {
     return (
         <header className={styles.header}>

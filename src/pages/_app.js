@@ -4,7 +4,7 @@ import '../styles/globals.css'
 
 //components
 import Head from "next/head";
-import {Footer, Header} from "../components";
+import {Header} from "../components";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -14,7 +14,6 @@ function MyApp({ Component, pageProps }) {
           </Head>
           <Header />
             <Component {...pageProps} />
-          <Footer />
       </>
   )
 }

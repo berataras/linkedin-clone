@@ -11,3 +11,11 @@ Header created:
 Left Sidebar created:
 
 ![Header](https://github.com/berataras/linkedin-clone/raw/main/public/steps/left-sidebar.png)
+
+Create Post Card created:
+
+![Header](https://github.com/berataras/linkedin-clone/raw/main/public/steps/create-post-card.png)
+
+Post Card created:
+
+![Header](https://github.com/berataras/linkedin-clone/raw/main/public/steps/post-card.png)

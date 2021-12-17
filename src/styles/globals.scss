@@ -32,6 +32,11 @@ body {
   margin: 0 auto;
 }
 
+.home{
+  display: flex;
+  justify-content: space-between;
+}
+
 .pb-20{
   padding-bottom: 20px;
 }
